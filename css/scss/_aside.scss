@@ -1,0 +1,49 @@
+// aside 開始 //
+aside{
+    .ad1{
+        display: block;
+        position: fixed;
+        left: 2%;
+        bottom: 30%;
+        z-index: 150;
+        width: 200px;
+        height: auto;
+        border-radius: 2px;
+        cursor: pointer;
+        &:hover{
+            transform: scale(1.1,1.1);
+        }
+    }
+    .ad2{
+        display: block;
+        position: fixed;
+        left: 87%;
+        bottom: 30%;
+        z-index: 150;
+        width: 200px;
+        height: auto;
+        border-radius: 2px;
+        cursor: pointer;
+        &:hover{
+            transform: scale(1.1,1.1);
+        }
+    }
+    .close-btn{
+        text-decoration: none;
+        position: absolute;
+        top: 3px;
+        right: 3px;
+        color: #1f1f1f;
+        background: rgba(255, 255, 255, 0.6);
+        border-radius: 50%;
+        padding: 2%;
+        width: 12%;
+        text-align: center;
+        &:hover{
+            color: rgb(151, 47, 47);
+            font-weight: bold;
+            }
+    }
+}
+
+// aside 結束 //
