@@ -741,7 +741,7 @@ nav {
         top: 76%;
         left: 18%;
         z-index: 30;
-        width: 85%;
+        width: 78%;
         font-size: 0;
         -webkit-animation-name: discount-box;
         animation-name: discount-box;
@@ -847,8 +847,7 @@ nav {
       color: #1f1f1f; }
 
 main {
-  background: #ededed;
-  width: 1000px; }
+  background: #ededed; }
 
 .location {
   font-size: 0; }
