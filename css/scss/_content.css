@@ -1,0 +1,290 @@
+.banner {
+  position: relative;
+  -webkit-animation-name: banner;
+  animation-name: banner;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-iteration-count: 1;
+  animation-iteration-count: 1;
+  -webkit-animation-timing-function: linear;
+  animation-timing-function: linear;
+  font-size: 0; }
+  .banner .banner-img {
+    position: absolute;
+    top: 7%;
+    left: 21%;
+    z-index: 30;
+    width: 60%;
+    height: 32%;
+    overflow: hidden;
+    white-space: nowrap;
+    cursor: pointer;
+    border-radius: 5px; }
+    .banner .banner-img img {
+      width: 100%;
+      height: 100%;
+      vertical-align: top;
+      display: inline-block;
+      -webkit-animation-name: banner-img-slide;
+      animation-name: banner-img-slide;
+      -webkit-animation-duration: 16s;
+      animation-duration: 16s;
+      -webkit-animation-iteration-count: infinite;
+      animation-iteration-count: infinite;
+      -webkit-animation-timing-function: linear;
+      animation-timing-function: linear; }
+  .banner img {
+    width: 100%;
+    max-height: 900px;
+    margin: 0 auto; }
+  .banner .discount {
+    margin: 0 auto; }
+    .banner .discount img {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      z-index: 1;
+      width: 100%;
+      height: 300px; }
+    .banner .discount a {
+      text-decoration: none; }
+      .banner .discount a .discount-box {
+        position: absolute;
+        top: 76%;
+        left: 18%;
+        z-index: 30;
+        width: 78%;
+        font-size: 0;
+        -webkit-animation-name: discount-box;
+        animation-name: discount-box;
+        -webkit-animation-duration: 1.5s;
+        animation-duration: 1.5s;
+        -webkit-animation-iteration-count: infinite;
+        animation-iteration-count: infinite;
+        -webkit-animation-timing-function: linear;
+        animation-timing-function: linear; }
+        .banner .discount a .discount-box:hover {
+          -webkit-transform: scale(1.05, 1.05);
+          -ms-transform: scale(1.05, 1.05);
+          transform: scale(1.05, 1.05); }
+          .banner .discount a .discount-box:hover h6 {
+            color: orangered;
+            background: #fff; }
+          .banner .discount a .discount-box:hover p {
+            color: #fff;
+            background: orangered; }
+        .banner .discount a .discount-box h6 {
+          color: #fff;
+          background: orangered;
+          font-size: 50px;
+          font-weight: 800;
+          width: 40%;
+          line-height: 90px;
+          display: inline-block;
+          text-align: center;
+          vertical-align: top;
+          border-radius: 10px 0 0 10px; }
+    .banner .discount p {
+      color: orangered;
+      background: #fff;
+      font-size: 40px;
+      font-weight: 700;
+      width: 40%;
+      line-height: 90px;
+      display: inline-block;
+      text-align: center;
+      vertical-align: top;
+      border-radius: 0 10px 10px 0; }
+
+.search {
+  background: rgba(0, 0, 0, 0.5);
+  border-radius: 5px;
+  position: absolute;
+  top: 53%;
+  left: 9%;
+  z-index: 30;
+  width: 87%;
+  overflow: hidden;
+  white-space: nowrap;
+  cursor: pointer; }
+  .search form {
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    padding: 2%;
+    margin: 0 auto; }
+    .search form label {
+      color: #fff; }
+    .search form input {
+      padding: 5px 0;
+      font-size: 11px;
+      width: 15%; }
+    .search form button {
+      width: 5%;
+      display: inline-block;
+      vertical-align: middle;
+      margin: 0 1%;
+      outline: 0;
+      color: #1f1f1f;
+      font-weight: bold;
+      font-size: 16px;
+      background: #ededed;
+      padding: 1% 0;
+      border-radius: 3px;
+      border: none;
+      -webkit-transition: 0.5s;
+      -o-transition: 0.5s;
+      transition: 0.5s;
+      cursor: pointer; }
+      .search form button:hover {
+        background: #03a9f4;
+        color: #fff; }
+
+.about {
+  padding: 40px 0;
+  font-size: 0; }
+  .about .box {
+    display: inline-block;
+    width: 33.33333%; }
+    .about .box img {
+      width: 20%;
+      display: inline-block;
+      vertical-align: middle; }
+    .about .box p {
+      font-size: 25px;
+      font-weight: bold;
+      display: inline-block;
+      vertical-align: middle;
+      margin-left: 3px;
+      color: #1f1f1f; }
+
+main {
+  background: #ededed; }
+
+.location {
+  font-size: 0; }
+  .location h2 {
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+    padding: 5px 0; }
+  .location .location-photo .location-photo-1 {
+    -webkit-animation-name: location-photo-1;
+    animation-name: location-photo-1;
+    -webkit-animation-duration: 2s;
+    animation-duration: 2s;
+    -webkit-animation-iteration-count: 1;
+    animation-iteration-count: 1;
+    -webkit-animation-timing-function: linear;
+    animation-timing-function: linear; }
+  .location .location-photo .location-photo-2 {
+    -webkit-animation-name: location-photo-2;
+    animation-name: location-photo-2;
+    -webkit-animation-duration: 1.8s;
+    animation-duration: 1.8s;
+    -webkit-animation-iteration-count: 1;
+    animation-iteration-count: 1;
+    -webkit-animation-timing-function: linear;
+    animation-timing-function: linear; }
+  .location .location-photo .location-photo-3 {
+    -webkit-animation-name: location-photo-3;
+    animation-name: location-photo-3;
+    -webkit-animation-duration: 1.6s;
+    animation-duration: 1.6s;
+    -webkit-animation-iteration-count: 1;
+    animation-iteration-count: 1;
+    -webkit-animation-timing-function: linear;
+    animation-timing-function: linear; }
+  .location .location-photo .location-photo-4 {
+    -webkit-animation-name: location-photo-4;
+    animation-name: location-photo-4;
+    -webkit-animation-duration: 1.4s;
+    animation-duration: 1.4s;
+    -webkit-animation-iteration-count: 1;
+    animation-iteration-count: 1;
+    -webkit-animation-timing-function: linear;
+    animation-timing-function: linear; }
+  .location .location-photo .location-photo-5 {
+    -webkit-animation-name: location-photo-5;
+    animation-name: location-photo-5;
+    -webkit-animation-duration: 1.2s;
+    animation-duration: 1.2s;
+    -webkit-animation-iteration-count: 1;
+    animation-iteration-count: 1;
+    -webkit-animation-timing-function: linear;
+    animation-timing-function: linear; }
+  .location .location-photo .location-photo-6 {
+    -webkit-animation-name: location-photo-6;
+    animation-name: location-photo-6;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-iteration-count: 1;
+    animation-iteration-count: 1;
+    -webkit-animation-timing-function: linear;
+    animation-timing-function: linear; }
+  .location .location-photo .location-photo-7 {
+    -webkit-animation-name: location-photo-7;
+    animation-name: location-photo-7;
+    -webkit-animation-duration: 0.8s;
+    animation-duration: 0.8s;
+    -webkit-animation-iteration-count: 1;
+    animation-iteration-count: 1;
+    -webkit-animation-timing-function: linear;
+    animation-timing-function: linear; }
+  .location .location-photo .location-photo-8 {
+    -webkit-animation-name: location-photo-8;
+    animation-name: location-photo-8;
+    -webkit-animation-duration: 0.6s;
+    animation-duration: 0.6s;
+    -webkit-animation-iteration-count: 1;
+    animation-iteration-count: 1;
+    -webkit-animation-timing-function: linear;
+    animation-timing-function: linear; }
+  .location .location-photo li {
+    width: 47%;
+    display: inline-block;
+    margin: 1.5% 1.5%;
+    position: relative; }
+    .location .location-photo li img {
+      -webkit-transition: 0.8s;
+      -o-transition: 0.8s;
+      transition: 0.8s;
+      width: 480px;
+      height: 300px;
+      border-radius: 5px; }
+    .location .location-photo li img.active {
+      opacity: 0.3; }
+    .location .location-photo li a {
+      font-size: 30px;
+      font-weight: 800;
+      color: orangered;
+      text-decoration: none;
+      display: block; }
+      .location .location-photo li a h4 {
+        position: absolute;
+        bottom: 15px;
+        left: 15px;
+        background: rgba(255, 250, 205, 0.6);
+        border-radius: 3px;
+        -webkit-transition: 1s;
+        -o-transition: 1s;
+        transition: 1s; }
+      .location .location-photo li a h4.active {
+        bottom: 80%;
+        background: none; }
+      .location .location-photo li a p {
+        display: none;
+        font-size: 20px;
+        color: orangered;
+        -webkit-transition: 1s;
+        -o-transition: 1s;
+        transition: 1s; }
+      .location .location-photo li a p.active {
+        display: block;
+        position: absolute;
+        top: 30%;
+        left: 15px; }
+    .location .location-photo li:hover img {
+      -webkit-transform: scale(1.1, 1.1);
+      -ms-transform: scale(1.1, 1.1);
+      transform: scale(1.1, 1.1); }
