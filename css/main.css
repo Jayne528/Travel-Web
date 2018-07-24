@@ -700,10 +700,10 @@ nav {
   .banner .banner-img {
     position: absolute;
     top: 7%;
-    left: 27%;
+    left: 21%;
     z-index: 30;
-    width: 900px;
-    height: 232px;
+    width: 60%;
+    height: 32%;
     overflow: hidden;
     white-space: nowrap;
     cursor: pointer;
@@ -738,11 +738,11 @@ nav {
       text-decoration: none; }
       .banner .discount a .discount-box {
         position: absolute;
-        z-index: 5;
-        bottom: 9%;
-        left: 30%;
+        top: 76%;
+        left: 18%;
+        z-index: 30;
+        width: 85%;
         font-size: 0;
-        min-width: 756px;
         -webkit-animation-name: discount-box;
         animation-name: discount-box;
         -webkit-animation-duration: 1.5s;
@@ -766,8 +766,7 @@ nav {
           background: orangered;
           font-size: 50px;
           font-weight: 800;
-          width: 360px;
-          height: 90px;
+          width: 40%;
           line-height: 90px;
           display: inline-block;
           text-align: center;
@@ -778,8 +777,7 @@ nav {
       background: #fff;
       font-size: 40px;
       font-weight: 700;
-      width: 360px;
-      height: 90px;
+      width: 40%;
       line-height: 90px;
       display: inline-block;
       text-align: center;
@@ -787,24 +785,28 @@ nav {
       border-radius: 0 10px 10px 0; }
 
 .search {
-  position: absolute;
-  top: 55%;
-  left: 22%;
-  z-index: 80;
-  min-width: 1000px;
-  height: 100px;
   background: rgba(0, 0, 0, 0.5);
   border-radius: 5px;
-  padding: 30px 0; }
+  position: absolute;
+  top: 53%;
+  left: 9%;
+  z-index: 30;
+  width: 85%;
+  overflow: hidden;
+  white-space: nowrap;
+  cursor: pointer; }
   .search form {
     font-size: 16px;
     font-weight: bold;
-    text-align: center; }
+    text-align: center;
+    padding: 2%;
+    margin: 0 auto; }
     .search form label {
       color: #fff; }
     .search form input {
       padding: 5px 0;
-      font-size: 14px; }
+      font-size: 11px;
+      width: 15%; }
     .search form button {
       width: 5%;
       display: inline-block;
@@ -845,7 +847,8 @@ nav {
       color: #1f1f1f; }
 
 main {
-  background: #ededed; }
+  background: #ededed;
+  width: 1000px; }
 
 .location {
   font-size: 0; }
@@ -993,7 +996,7 @@ aside .ad1 {
 aside .ad2 {
   display: block;
   position: fixed;
-  left: 87%;
+  right: 2%;
   bottom: 30%;
   z-index: 150;
   width: 200px;

@@ -9,12 +9,12 @@
     .banner-img{
         position: absolute;
         top: 7%;
-        left: 27%;
+        left: 21%;
         z-index: 30;
-        width: 900px;
-        height: 232px;
+        width: 60%;
+        height: 32%;
         overflow: hidden;
-        white-space:nowrap;
+        white-space: nowrap;
         cursor: pointer;
         border-radius: 5px;
         img{
@@ -47,11 +47,11 @@
         text-decoration: none;
         .discount-box{
             position: absolute;
-            z-index: 5;
-            bottom: 9%;
-            left: 30%;
+            top: 76%;
+            left: 18%;
+            z-index: 30;
+            width: 85%;
             font-size: 0;
-            min-width: 756px;
             animation-name: discount-box;
             animation-duration: 1.5s;
             animation-iteration-count: infinite;
@@ -71,52 +71,54 @@
             color: #fff;
             background: orangered;
             font-size: 50px;
-            font-weight: 800; 
-            width: 360px;
-            height: 90px; 
+            font-weight: 800;
+            width: 40%;
             line-height: 90px;
             display: inline-block;
             text-align: center;
-            vertical-align: top; 
+            vertical-align: top;
             border-radius: 10px 0 0 10px;
         }
      }
 }
      p{
-         color: orangered;
-         background: #fff;
-         font-size: 40px;
-         font-weight: 700;
-         width: 360px;
-         height: 90px;
-         line-height: 90px;
-         display: inline-block;
-         text-align: center;
-         vertical-align: top;  
-         border-radius: 0 10px 10px 0;
+        color: orangered;
+        background: #fff;
+        font-size: 40px;
+        font-weight: 700;
+        width: 40%;
+        line-height: 90px;
+        display: inline-block;
+        text-align: center;
+        vertical-align: top;
+        border-radius: 0 10px 10px 0;
      }
     }
 }
 .search{
-    position: absolute;
-    top: 55%;
-    left: 22%;
-    z-index: 80;
-    min-width: 1000px;
-    height: 100px;
-    background: rgba(black,0.5);
+    background: rgba(0, 0, 0, 0.5);
     border-radius: 5px;
-    padding: 30px 0;
+    position: absolute;
+    top: 53%;
+    left: 9%;
+    z-index: 30;
+    width: 85%;
+    overflow: hidden;
+    white-space: nowrap;
+    cursor: pointer;
     form{
         font-size: 16px;
         font-weight: bold;
         text-align: center;
+        padding: 2%;
+        margin: 0 auto;
         label{
             color: #fff;
         }
         input{
             padding: 5px 0;
-            font-size: 14px;
+            font-size: 11px;
+            width: 15%;
         }
         button{
             width: 5%;
@@ -170,6 +172,7 @@
 // 人氣景點 //
 main{
     background: #ededed;
+    width: 1000px;
 }
 .location{
      font-size: 0; 
